@@ -70,6 +70,11 @@ body, html {
     object-fit: cover;
 }
 
+.topnav img {
+    width: 45px;
+    height: 45px;
+}
+
 .hide {
     display: none;
 }
@@ -147,4 +152,164 @@ body, html {
 .footer a {
     text-decoration: none;
     color: #999999;
+}
+
+.topnav img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.login{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login button {
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login button:hover {
+    background-color: darkred;
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+.personal {
+    color: white;
+    width: 30%;
+    float: left;
+    height: 100%;
+    background-color: #333333;
+}
+
+.posts {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.pic img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.personal a {
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.details {
+    text-align: center;
+}
+
+.motto {
+    width: 70%;
+    text-align: center;
+    font-weight: lighter;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.accountdetails {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+}
+
+.accountdetails div {
+    padding: 10px;
+}
+
+.description {
+    margin-top: 30px;
+    text-align: justify;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.postcontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Parent Container */
+.content_img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.content_img img {
+    border-radius: 5px;
+}
+/* Child Text Container */
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+
+}
+
+.content_img:hover img{
+    webkit-filter: blur(4px);
+    filter: blur(4px);
 }
