@@ -1,7 +1,7 @@
 body {
     font-family: "Open Sans", Arial, sans-serif;
     margin: 0;
-    background-image: url("https://i.pinimg.com/originals/a5/63/f8/a563f8372a7a89eecf1c9bef7350f3ea.jpg");
+    background-image: url("https://www.wallpaperbetter.com/wallpaper/23/163/711/dark-forest-nature-trees-leaves-1080P-wallpaper.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -312,4 +312,10 @@ input[type=text], input[type=password] {
 .content_img:hover img{
     webkit-filter: blur(4px);
     filter: blur(4px);
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
