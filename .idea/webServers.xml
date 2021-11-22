@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a388c671-5715-467e-95be-dac2b64e7197" name="188.237.206.157">
+        <fileTransfer rootFolder="/home/gabriel/phpStorm" accessType="SFTP" host="188.237.206.157" port="22" sshConfigId="8e20c3f5-3b80-47c3-8a8d-14cf25f87eee" sshConfig="gabriel@188.237.206.157:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
