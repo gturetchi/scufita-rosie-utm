@@ -43,8 +43,8 @@ function Circle() {
         this.rt = Math.random()*this.hl;
         this.s.rt = Math.random()+1;
         this.stop = Math.random()*.2+.4;
-        this.s.xdrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
-        this.s.ydrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
+        this.s.xdrift *= Math.random() * (Math.random() < 0.5 ? -1 : 1);
+        this.s.ydrift *= Math.random() * (Math.random() < 0.5 ? -1 : 1);
     }
 
     this.fade = function() {
